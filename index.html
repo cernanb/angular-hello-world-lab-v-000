@@ -8,6 +8,14 @@
 </head>
 <body>
 
+    <div ng-app='app'>
+      <div ng-controller='MainController'>
+        <h1>{{contact.name}}</h1>
+        <h2>{{contact.email}}</h2>
+        <h2>{{contact.phone}}</h2>
+      </div>
+    </div>
+
     <script src="js/angular.js"></script>
     <script src="js/app/app.js"></script>
     <script src="js/app/controllers/MainController.js"></script>
